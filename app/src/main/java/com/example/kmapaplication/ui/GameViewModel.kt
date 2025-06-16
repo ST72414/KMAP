@@ -27,14 +27,21 @@ class GameViewModel : ViewModel() {
     private val _results = MutableLiveData<List<GameResult>>(emptyList())
     val results: LiveData<List<GameResult>> = _results
 
+    private var attemptCount = 0
+
     init {
         generateNewHint()
     }
 
     fun guessNumber(guess: Int) {
+        if (attemptCount >= 10) {
+            // Hráč už vyčerpal pokusy
+            return
+        }
         val correct = guess == _currentHint.value?.answer
         val result = GameResult(guess, correct)
         _results.value = _results.value!! + result
+        attemptCount++
         generateNewHint()
     }
 
