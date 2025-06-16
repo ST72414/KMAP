@@ -1,4 +1,3 @@
-Přidání README s popisem projektu
 # KMAPaplication
 
 Android aplikace vytvořená jako semestrální projekt pro předmět KMAP.
