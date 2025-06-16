@@ -42,3 +42,6 @@ class GameViewModel : ViewModel() {
         _currentHint.value = hints.random()
     }
 }
+
+// TODO: commit MVVM struktura
+

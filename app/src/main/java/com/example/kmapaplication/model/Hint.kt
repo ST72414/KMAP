@@ -4,3 +4,5 @@ data class Hint(
     val text: String,
     val answer: Int
 )
+
+// TODO: commit logika nápovědy
