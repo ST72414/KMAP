@@ -40,3 +40,5 @@ class GameAdapter(private val results: List<GameResult>) : RecyclerView.Adapter<
         holder.textResult.setBackgroundColor(backgroundColor)
     }
 }
+
+// TODO: commit RecyclerView adaptér

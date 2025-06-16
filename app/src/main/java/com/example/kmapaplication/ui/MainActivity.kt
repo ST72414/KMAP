@@ -40,3 +40,4 @@ class MainActivity : AppCompatActivity() {
 }
 
 // TODO: změna pro nový commit
+// TODO: připojení RecyclerView
