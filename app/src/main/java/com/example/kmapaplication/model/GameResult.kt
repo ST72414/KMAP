@@ -5,3 +5,5 @@ data class GameResult(
     val correct: Boolean,
     val timestamp: Long = System.currentTimeMillis()
 )
+
+// TODO: commit logika výsledku
