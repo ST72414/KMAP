@@ -42,3 +42,4 @@ class GameAdapter(private val results: List<GameResult>) : RecyclerView.Adapter<
 }
 
 // TODO: commit RecyclerView adaptér
+// TODO: stylování výsledku podle správnosti
